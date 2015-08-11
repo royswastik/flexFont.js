@@ -4,9 +4,9 @@ Javascript library for responsive font sizes based on their parent element width
 ## Usage
 
 
-1. call flexText
+1. call flexFont
 
-    $('.selector').flexText(options);
+    $('.selector').flexFont(options);
     
 *[options] object with the following optional properties:*
 
