@@ -1,8 +1,8 @@
 /*
-* flexText.js v1.0
+* flexFont.js v1.0
 * Copyright 2015 Swastik Roy, 
 *
-* flexText.js by Swastik Roy
+* flexFont.js by Swastik Roy
 * is licensed under the MIT License. Read a copy of the
 * license in the LICENSE.txt file
 
