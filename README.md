@@ -31,3 +31,10 @@ Javascript library for responsive font sizes based on their parent element width
   ifclass: null
 }
 ```
+
+
+## Developed by... ##
+
+This library is developed by Swastik Roy (https://www.linkedin.com/in/swastikroy).
+
+flexFont.JS is licensed under the MIT License. See the LICENSE.txt file for copy permission.
