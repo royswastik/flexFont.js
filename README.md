@@ -15,9 +15,8 @@ Javascript library for responsive font sizes based on their parent element width
 - **maxWidth** (value in px): Font size will not be changed after this width of containing element. 
 - **minWidth** (value in px): Font size will not be changed after this width of containing element. 
 - **sizeRatio** (integer value): Ratio of containing element's width to font-size.
-- **ifparentClass** ([String,integer]): also add text to the
-  $('.selector').attr('title')
-- **ifclass** (value in px): 
+- **ifparentClass** ([className,parentLevel] as [String,integer]): Only change font-size if the element's parent has the mentioned 'className'. The second item 'parentLevel' in the array defines the level in hierarchy of DOM tree. For example parentLevel as 1 is for direct parent, 2 is for parent of the parent and so on. 
+- **ifclass** (className as String): Only change font-size if the containing element has the specified 'className'
     
     
 ## Default options
