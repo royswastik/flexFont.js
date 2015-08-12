@@ -1,6 +1,6 @@
 # flexFont.js
-Javascript library for responsive font sizes based on their parent element width.
---Check live demo [here](https://jsfiddle.net/royswastik/asakpm29/1/embedded/result/)
+- Javascript library for responsive font sizes based on their parent element width.
+- Check live demo [here](https://jsfiddle.net/royswastik/asakpm29/1/embedded/result/)
 ## Usage
 Add
 ```html
