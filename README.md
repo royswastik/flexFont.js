@@ -33,6 +33,8 @@ Or
 - **sizeRatio** (integer value): Ratio of containing element's width to font-size.
 - **ifparentClass** ([className,parentLevel] as [String,integer]): Only change font-size if the element's parent has the mentioned 'className'. The second item 'parentLevel' in the array defines the level in hierarchy of DOM tree. For example parentLevel as 1 is for direct parent, 2 is for parent of the parent and so on. 
 - **ifclass** (className as String): Only change font-size if the containing element has the specified 'className'
+- **textEllipsis** ("atAny"|"atMinWidth"|"atMinFontSize"|false): Add ellipsis to the text when minimum width is reached, minimum font-size is reached or at any value.
+- **overflowHidden** (true|false): Sets over-flow to hidden. Can be used when text goes out of the parent's borders if height is fixed.
     
     
 ## Default options
@@ -44,7 +46,9 @@ Or
   minWidth   : 1,
   sizeRatio : 20,
   ifparentClass: [null,1],
-  ifclass: null
+  ifclass: null,
+  textEllipsis : false,
+  overflowHidden: false
 }
 ```
 
