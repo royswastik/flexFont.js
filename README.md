@@ -3,14 +3,6 @@ Javascript library for responsive font sizes based on their parent element width
 Check live demo [here](https://jsfiddle.net/royswastik/asakpm29/1/embedded/result/)
 ## Usage
 Add
-```html
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/flexFont/latest/flexFont.min.js"></script>
-<script>
-  jQuery("#content").flexFont();
-</script>
-```
-Or
 
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
