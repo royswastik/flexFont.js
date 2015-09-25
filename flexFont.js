@@ -92,7 +92,7 @@
       
       return this.each(function() {
       var this2 = this;
-         $(window).resize(function(){
+         $(this).resize(function(){
 
             var condition = true;
             condition = (parameters.ifclass != null) ? ($(this2).hasClass(parameters.ifClass) ? true : false) : condition;
